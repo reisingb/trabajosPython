@@ -45,10 +45,18 @@ print("esto es el perimetro de circulo : ", radio) """
 area = calcular_area(5)
 print("esto es el area de un circulo: ", area) """
 
-def calcular_volumen(radio):
+""" def calcular_volumen(radio):
     
     return (4/3) * math.pi * radio ** 3
 
 
 volumen = calcular_volumen(5)
-print("esto es el volumen de un esfera: ", volumen)
+print("esto es el volumen de un esfera: ", volumen) """
+
+def calcular_hipotenusa(cateto1, cateto2 ):
+    
+    return math.sqrt(cateto1 ** 2 + cateto2 ** 2) # sqrt calcula la raiz cuadrada
+
+
+hipotenusa = calcular_hipotenusa(4,5)
+print("el resultado de calcular hipotenusa de un triangulo rectangulo es : ",hipotenusa )
