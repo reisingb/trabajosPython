@@ -37,10 +37,18 @@ radio = calcular_perimetro(5)
 print("esto es el perimetro de circulo : ", radio) """
 
 
-def calcular_area(radio):
+""" def calcular_area(radio):
     
     return math.pi * radio ** 2
 
 
 area = calcular_area(5)
-print("esto es el area de un circulo: ", area)
+print("esto es el area de un circulo: ", area) """
+
+def calcular_volumen(radio):
+    
+    return (4/3) * math.pi * radio ** 3
+
+
+volumen = calcular_volumen(5)
+print("esto es el volumen de un esfera: ", volumen)
